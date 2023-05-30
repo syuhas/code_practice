@@ -1,0 +1,10 @@
+This is a test
+
+ Of the i/o file capabilities in the python programming language
+
+ Python will read from this file
+
+ And be able to manipulate things like text, filename, location and metadata
+
+ This is a new line added via the python read function
+

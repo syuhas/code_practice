@@ -1,0 +1,25 @@
+{
+	"AWSTemplateFormatVersion" : "2010-09-09",
+
+	"Description" : "Simple Instance Template",
+
+	"Parameters" : {
+	
+	},
+
+	"Resources": {
+			"HelloBucket" : {
+			"Type" : "AWS::S3::Bucket",
+			"Properties" : { 
+			"AccessControl" : "Public Read",
+			"WebsiteConfiguration" : {
+				"IndexDocument" : "index.html",
+				"ErrorDocument" : "error.html"
+			}			
+			}
+		}
+	},
+
+	"Outputs" : {
+	}
+}
